@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-boxs;
+    background-color: #f0f4f5;
+}
+body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+  }
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left:200px;
+    margin-right:200px;
+}
+#navbar img{
+    width: 150px;
+    height: 50px;
+}
+#link ul{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    list-style: none;
+    
+   
+}
+#link ul li a{
+    text-decoration: none;
+    color:#202121;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#front{
+    text-align: center;
+    margin-top: 150px;
+    
+}
+#front h1{
+    color: #28bd81;
+}
+.para{
+    margin-top: 19px;
+    font-size: 18px;
+}
+#Details{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 330px;
+    gap: 90px;
+}
+#Details span{
+    color: #28bd81;
+    font-size: 23px;
+    font-weight: 600;
+}
+#Details p{
+    font-size: 30px;
+    font-weight: 400;
+}
+#Doctor{
+   
+    background-color: #f0f4f5;
+    box-shadow: 0 0 10px black;
+    padding: 19px 46px;
+    border-radius: 10px;
+}
+#Customers{
+   
+    background-color: #f0f4f5;
+    box-shadow: 0 0 10px black;
+    padding: 19px 46px;
+    border-radius: 10px;
+}
+#Student{
+    background-color: #f0f4f5;
+    box-shadow: 0 0 10px black;
+    padding: 19px 46px;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-boxs;
+    background-color: #f0f4f5;
+}
+body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+  }
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left:200px;
+    margin-right:200px;
+}
+#navbar img{
+    width: 150px;
+    height: 50px;
+}
+#link ul{
+    display: flex;
+    align-items: center;
+    gap:50px;
+    list-style: none;
+    
+   
+}
+#link ul li a{
+    text-decoration: none;
+    color:#202121;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+}
+form{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 545px;
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #f0f4f5;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+  }
+form div input,textarea{
+    border: transparent;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #ffffff;
+    color: #000000;
+}
+textarea{
+    height: 100px;
+}
+label{
+    font-size: 18px;
+    font-weight: 600;
+}
+button{
+    padding: 12px 12px;
+    border-radius: 12px;
+    background-color:#22bc7e;
+    font-size: 18px;
+    color:#ffffff;
+}
+.name{
+    margin-right:290px;
+    margin-bottom: 3px;
+}
+.Email{
+    margin-right:290px;
+    margin-bottom: 3px;
+}
+.Message{
+    margin-right:274px;
+    margin-bottom: 3px;
+}
+
